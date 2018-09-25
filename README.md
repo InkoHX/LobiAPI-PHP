@@ -2,15 +2,16 @@
 LobiAPIのPHPバージョン
 
 ## プラグインでの使い方
-1. LobiAPI.phpとHttpAPIフォルダをコピー
-1. プラグインのメインファイルが入ってるフォルダに貼り付け
-1. LobiAPI.phpとHttpAPIの中のHttp.php,Header.phpのネームスペースをプラグインのネームスペースに合わせて修正
-1. LobiAPI.phpのuse文をプラグインのネームスペースに合わせて修正
-1. メインクラスのuse文にLobiAPIを追加
-1. あとはサンプルのように書いていくだけ(オブジェクトを作ったらまずログインしてください)
-1. `LobiAPI.php`の`UserAgent`を変える必要があります。調べて書き換えて下さい。
+1. `LobiAPI`ファイルをsrcの中に入れる
+1. `use LobiAPI\delion\LobiAPI;`をメインファイルに書く
+1. 後はサンプルのようにする
+
+## 注意
+1. [ここ](https://github.com/InkoHX/LobiAPI-PHP/blob/master/LobiAPI/LobiAPI.php#L13)のUAは各自変える必要があります。
+1. 非同期を使わないとサーバーに負担が掛かります。([Thread](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/Thread.php)や[AsyncTask](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/scheduler/AsyncTask.php)を使う事を推奨します。)
+1. `onLoad`や`onEnable`の所に必ずログインする文を書いて下さい。
 
 ## その他
 このLobiAPIを使用したプラグインを配布する場合は、以下のようなAPIの開発者、開発元がわかる文章を付けてください。
-* https://github.com/NewDelion/LobiAPI-PHP    このURLを入れる
-* GithubでNewDelionが公開しているLobiAPIを使用した
+* https://github.com/NewDelion/LobiAPI-PHP   このURLを入れる。
+* GitHubでNewDelionが公開しているLobiAPIを使用した。
