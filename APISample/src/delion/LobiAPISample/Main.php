@@ -1,8 +1,8 @@
 <?php
 
-namespace delion\APISample;
+namespace delion\LobiAPISample;
 
-use delion\APISample\LobiAPI\LobiAPI;
+use LobiAPI\delion\LobiAPI;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 

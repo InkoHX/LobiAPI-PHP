@@ -1,6 +1,6 @@
 <?php
 
-namespace delion\LobiAPI\HttpAPI;
+namespace LobiAPI\delion\HttpAPI;
 
 class Header
 {

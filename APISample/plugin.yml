@@ -1,6 +1,6 @@
 name: LobiAPI-Sample
 version: 0.2.0
-main: delion\APISample\Main
+main: delion\LobiAPISample\Main
 description: 'LobiAPIを使用してLobiのプロフィールを指定したプロフィールに変更するサンプルプラグイン'
 website: 'https://github.com/NewDelion/LobiAPI-PHP'
 api: [3.0.0, 4.0.0]
