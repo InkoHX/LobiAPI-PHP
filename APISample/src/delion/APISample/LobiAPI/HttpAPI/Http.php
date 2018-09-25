@@ -1,6 +1,6 @@
 <?php
 
-namespace delion\LobiAPI\LobiAPI\HttpAPI;
+namespace delion\APISample\LobiAPI\HttpAPI;
 
 class Http
 {

@@ -2,7 +2,7 @@
 
 namespace delion\APISample;
 
-use delion\LobiAPI\LobiAPI\LobiAPI;
+use delion\APISample\LobiAPI\LobiAPI;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
