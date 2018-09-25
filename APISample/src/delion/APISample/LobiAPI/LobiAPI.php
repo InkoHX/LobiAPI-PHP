@@ -1,9 +1,9 @@
 <?php
 
-namespace delion\LobiAPI;
+namespace delion\LobiAPI\LobiAPI;
 
-use delion\LobiAPI\HttpAPI\Http;
-use delion\LobiAPI\HttpAPI\Header;
+use delion\LobiAPI\LobiAPI\HttpAPI\Http;
+use delion\LobiAPI\LobiAPI\HttpAPI\Header;
 
 class LobiAPI
 {
