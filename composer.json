@@ -1,7 +1,8 @@
 {
   "name": "newdelion/lobiapi-php",
+  "description": "LobiAPI for php",
   "homepage": "https://github.com/NewDelion/LobiAPI-PHP",
-  "type": "project",
+  "type": "library",
   "authors": [
     {
       "name": "NewDelion",
