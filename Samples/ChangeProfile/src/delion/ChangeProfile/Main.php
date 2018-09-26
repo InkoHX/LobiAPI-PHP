@@ -1,6 +1,6 @@
 <?php
 
-namespace delion\LobiAPISample;
+namespace delion\ChangeProfile;
 
 use LobiAPI\delion\LobiAPI;
 use pocketmine\plugin\PluginBase;
